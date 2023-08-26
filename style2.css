@@ -1,14 +1,63 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-.main-div{
+.container {
     position: relative;
 }
 
-.waves{
+.container1 {
     position: absolute;
-    top: 50px;
+    bottom: 0px;
+}
+
+.images {
+    position: absolute;
+    bottom: 180px;
+    left: 250px;
+}
+
+.images1 {
+    position: absolute;
+    bottom: 80px;
+    left: 450px;
+}
+
+.images2 {
+    position: absolute;
+    bottom: 230px;
+    left: 800px;
+}
+
+.images3 {
+    position: absolute;
+    bottom: 210px;
+    left: 70%;
+}
+
+.images4 {
+    position: absolute;
+    bottom: 300px;
+    left: 85%;
+}
+
+.content {
+    position: absolute;
+    top: 18%;
+    left: 46%;
+    color: white;
+}
+
+.para {
+    font-size: 15px;
+    color: #f4f5f9;
+    margin-left: -100px;
+    padding-top: 15px;
+}
+
+.img{
+    padding-left: 50px;
+    padding-top: 15px;
 }
